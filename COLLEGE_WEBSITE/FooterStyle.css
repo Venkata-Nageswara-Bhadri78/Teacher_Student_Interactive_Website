@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+footer {
+    padding: 20px;
+    background-color: #c0bebf;
+    color: white;
+}
+.logos table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+.logos img {
+    border-radius: 30%;
+    margin: 0 auto 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logos img:hover {
+    transform: scale(2.1);
+    box-shadow: 0 4px 5px black;
+}
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.foot a {
+    color: white;
+    margin: 0 10px;
+}
+
+.foot a:hover {
+    color: black;
+}
+.foot table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.foot td {
+    padding: 10px;
+    border-right: 1px solid white;
+    transition: background-color 0.3s ease;
+}
+
+.foot td:last-child {
+    border-right: none;
+}

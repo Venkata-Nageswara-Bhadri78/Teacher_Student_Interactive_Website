@@ -1,0 +1,21 @@
+<web-app>
+	<servlet>
+		<servlet-name>m</servlet-name>
+		<servlet-class>JavaCode</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>m</servlet-name>
+		<url-pattern>/logIn</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>r</servlet-name>
+		<servlet-class>RegisterJavaCode</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>r</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

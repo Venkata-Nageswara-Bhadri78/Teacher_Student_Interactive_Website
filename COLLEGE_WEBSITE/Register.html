@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>APPLY FOR NOCE</title>
+		<link rel="stylesheet" type="text/css" href="RegisterStyle.css">
+		<link rel="icon" href="NOCE.jpeg">
+		
+	</head>
+  <body>
+  <br><br>
+  
+    <h1>FILL THE DETAILS TO LOGIN</h1><br>
+	
+    <form action="./register">
+		<section class="personalDetails">
+		<label><span class="label-text">Select Your Designation :</span>
+			<select name="usertype" required>
+				<option value="Select">Select</option>
+				<option value="STUDENT">STUDENT</option>
+				<option value="TEACHER">TEACHER</option>
+			</select>
+		</label>
+		<label><span class="label-text">Enter your Full Name 	 : </span><input placeholder="  Enter your Full Name" type="text" required name="full_name"></label>
+		<label><span class="label-text">Enter your Email Address : </span><input type="email" placeholder="  XXXX@gmail.com" name="eemail" required></label>
+		<label><span class="label-text">Enter your Mobile Number : </span><input type="text" placeholder="  +91 XXXXXXXXXX" name="mobileNumber" required></label>
+		<label><span class="label-text">Enter your Password 	 : </span><input type="password" placeholder="  XXXXXXXX" name="pass" required></label>
+		<br>
+		</section><br>
+		<button class="sub" type="submit"> REGISTER </button><br><br>
+		
+    </form>
+  </body>
+</html>

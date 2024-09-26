@@ -1,0 +1,107 @@
+<head>
+	<title>LogIn Page</title>
+	<style>
+		h1{
+			text-align : center;
+		}
+		body {
+			width : 80%;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: auto;
+        }
+		tr{
+			
+		}
+        table {
+            width: 100%;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        td {
+            padding: 10px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button{
+			width : 100%;
+			background-color : white;
+			border-color : #f1948a;
+			color : red;
+			border : 1px #f1948a solid;
+			height : 50px;
+		}
+		button:hover{
+			color : white;
+			background-color : #f1948a;
+		}
+        
+	</style>
+</head>
+
+
+	<table>
+        <tr>
+            <td>
+                <form action="./logIn">
+                    <h1 style="text-align: center;">FOR STUDENTS</h1>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="text" required name="username" placeholder="Enter Email"></td>    
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td><input type="password" required name="pass" placeholder="Enter password"></td>
+                        </tr>
+						<tr>
+                            <td colspan="2"><input type="hidden" required name="userType" placeholder="UserType" value="STUDENT"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <button type="submit">LOG IN AS STUDENT</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            
+            <td>
+                <form action="./logIn">
+                    <h1 style="text-align: center;">FOR TEACHERS</h1>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="text" required name="username" placeholder="Enter Email"></td>    
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td><input type="password" required name="pass" placeholder="Enter password"></td>
+                        </tr>
+						
+						<tr>
+                            <td colspan="2"><input type="hidden" required name="userType" placeholder="UserType" value="TEACHER"></td>
+                        </tr>
+						
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <button type="submit">LOG IN AS TEACHER</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
